@@ -1,0 +1,31 @@
+//
+//  QMPrefixHeader.pch
+//  chatDemo1
+//
+//  Created by HeQichang on 15/8/3.
+//  Copyright (c) 2015年 heqichang. All rights reserved.
+//
+
+#ifndef chatDemo1_QMPrefixHeader_pch
+#define chatDemo1_QMPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// system
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+// pods
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <MBProgressHUD.h>
+#import <SSKeychain/SSKeychain.h>
+
+// third-party
+#import <SMS_SDK/SMS_SDK.h>
+#import "EaseMob.h"
+
+// prefix header
+#import "chatDemoDef.h"
+
+#endif
